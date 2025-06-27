@@ -97,9 +97,7 @@ async function playRaceEngine(character1, character2){
         } else if(totalTestSkill2 > totalTestSkill1){
             character2.points++;
             console.log(`${character2.name} wins this round! 🏆`);
-        } else {
-            console.log(`It's a tie! 🤝`);
-        }
+        } 
         
 
         
